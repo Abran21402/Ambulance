@@ -21,7 +21,7 @@ function App() {
       <div style={{ height: "200px" }}></div>
       <Routes>
         <Route path="/" element={<LandingPageUI />} />
-        <Route path="/otp" element={<OTPUI />} />
+        {/* <Route path="/otp" element={<OTPUI />} /> */}
         <Route
           path="/signup"
           element={<SignUpUI setSignedUp={setSignedUp} />}
